@@ -32,27 +32,21 @@ docker run -d -p 6379:6379 -i -t redis
 ## Como Rodar o Projeto  
 1. Clone o repositório:  
    ```bash  
-   git clone https://github.com/seu-usuario/hangfire-estudo.git  
+   git clone https://github.com/seu-usuario/hangfire-estudo.git
    ```  
 2. Acesse o diretório do projeto:  
    ```bash  
    cd hangfire-estudo  
-   ```  
-3. Configure a conexão com o Redis no `appsettings.json`. Exemplo:  
-   ```json  
-   "Hangfire": {  
-     "RedisConnection": "localhost:6379"  
-   }  
-   ```  
-4. Restaure os pacotes:  
+   ```   
+3. Restaure os pacotes:  
    ```bash  
    dotnet restore  
    ```  
-5. Execute o projeto:  
+4. Execute o projeto:  
    ```bash  
    dotnet run  
    ```  
-6. Acesse o Hangfire Dashboard:  
+5. Acesse o Hangfire Dashboard:  
    - URL padrão: `http://localhost:5000/hangfire`  
 
 ## Contribuição  
