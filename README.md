@@ -47,7 +47,9 @@ docker run -d -p 6379:6379 -i -t redis
    dotnet run  
    ```  
 5. Acesse o Hangfire Dashboard:  
-   - URL padrão: `http://localhost:5000/hangfire`  
+   - URL padrão: `http://localhost:5000/hangfire`
+   - **Login:** admin
+   - **Senha:** admin 
 
 ## Contribuição  
 Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar pull requests.  
